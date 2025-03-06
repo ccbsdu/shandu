@@ -68,45 +68,39 @@ graph TD
 
 ```bash
 # 从源代码安装
-git clone https://github.com/jolovicdev/shandu.git
+git clone https://github.com/ccbsdu/shandu.git
 cd shandu
 pip install -e .
 ```
 
 ## 🏁 快速开始
-
 ### 基础使用
-
 ```bash
-# 启动Streamlit应用
+# 启动应用
 streamlit run app.py
 
-# 确保Ollama服务运行（如果使用本地模型）
+# 启动 Ollama 服务（如果使用本地模型）
 ollama serve
-```
+ ```
 
-### 研究工具使用流程
+## 📊 技术架构
+### 核心模块
+- 研究工作流引擎
+- 多源搜索系统
+- 内容处理管道
+- 报告生成器
+### 扩展性
+- 支持自定义搜索引擎
+- 可配置的处理流程
+- 灵活的输出格式
+## 📝 开发计划
+- 添加更多 AI 提供商支持
+- 优化搜索算法
+- 增加数据可视化功能
+- 支持自定义模型参数
+- 添加批量处理能力
+## 🤝 贡献指南
+欢迎提交 Issue 和 Pull Request 来帮助改进项目。
 
-1. 打开研究工具页面
-2. 选择合适的模型
-3. 输入研究主题
-4. 等待自动搜索和分析
-5. 查看研究结果
-
-## 📊 技术能力
-
-- **动态JS渲染**：处理JavaScript密集型网站
-- **内容提取**：识别和提取网页主要内容
-- **并行处理**：搜索和抓取的并发执行
-- **缓存**：高效缓存搜索结果和抓取内容
-- **速率限制**：尊重网络资源访问
-- **Robots.txt遵从**：道德网页抓取实践
-- **灵活输出格式**：Markdown、JSON、纯文本
-
-## 📜 许可证和信息
-本项目采用MIT许可证 - 详见[LICENSE](LICENSE)文件。
-
-## 🤝 贡献
-欢迎提交Issue和Pull Request来帮助改进项目。
-```
-
+## 📜 许可证
+本项目采用 MIT 许可证 - 详见 LICENSE 文件。
