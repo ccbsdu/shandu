@@ -22,7 +22,14 @@ setup(
     author_email="jolovic@pm.me",
     url="https://github.com/jolovicdev/shandu",
     packages=find_packages(),
-    install_requires=requirements,
+    install_requires=[
+        "langchain",
+        "langgraph",
+        "streamlit",
+        "python-dotenv",
+        "requests",
+        "beautifulsoup4"
+    ],
     entry_points={
         "console_scripts": [
             "shandu=shandu.cli:cli",
